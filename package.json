@@ -1,8 +1,9 @@
 {
   "name": "cts-html-app",
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "angular": "^1.6.6",
     "angular-route": "^1.6.6",
@@ -13,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server"
   },
   "author": "",
   "license": "ISC"
