@@ -14,7 +14,7 @@ app.use('/angular-route', express.static(__dirname + '/node_modules/angular-rout
 app.use(express.static('src'));
 
 // Configure port
-const port = 4200;
+var port = process.env.PORT || 4220;
 // Listen to port
 app.listen(port);
 console.log(`Server is running on port: ${port}`);
